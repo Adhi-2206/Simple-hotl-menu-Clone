@@ -1,0 +1,138 @@
+*{
+    
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 800;
+    background-color:rgb(226, 56, 56);
+    opacity: 0.9;
+    align-items: center;
+    height: 60px;
+    
+   
+}
+/*list*/
+ol{
+    display: flex;
+    padding-left: 150px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+ol li{
+    margin-right: 150px;
+    list-style: none;
+    margin-right: 140px;
+    
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+img{
+    width: 40px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+/* Body */
+body{
+    background-color:#FFDCC7;
+    opacity: 0.9;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.information{
+    height: 750px;
+    width: 1000px;
+    display:inline;
+    text-align:center;
+    justify-content:space-evenly;
+
+}
+
+
+.heading{
+    /* margin-right:410px; */
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    padding-top: 150px;
+    margin-bottom:50px;
+    margin-top:60px;
+    margin-left:28px;
+    margin-right:280px;
+    word-spacing: 25px;
+    padding-top: 65px;
+    
+}
+
+.def{
+    font-size: 20px;  
+    margin-right:20px;
+    margin-left:64px;  
+    margin-top: 60px;
+    padding-left: 10px;
+    text-align: justify;
+    word-spacing: 1.5%;
+    line-height: 30px;
+}
+
+.btn{
+    background-attachment: fixed;
+    background-color:rgb(226, 56, 56);
+    opacity: 0.9;
+    color: white;
+    height:40px;
+    width:150px;
+   margin-right: 465px;
+    margin-top: 60px;
+    
+    
+}
+
+.btn:hover{
+    background-color:greenyellow;
+    color:black;
+    border:2px solid red;
+}
+    
+.image{
+    height:750px;
+    width:1000px;
+    
+    background-image: url("pexels-robin-stickel-70497.jpg");
+    background-size: cover;
+}
+
+@media  (max-width:300px) {
+ 
+    .navbar{
+     display: block;
+    }
+   }
+
+
+@media  (max-width:500px) and (min-width:300px) {
+
+       .content{
+          display:flex;
+       }
+      }
+
